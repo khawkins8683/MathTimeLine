@@ -31,7 +31,7 @@
 	width: 20px;
 	top:15px;
 
-	background-color: red;
+	background-color: red;/**set default event color to red*/
 	border: 2px solid white;
 	border-radius: 50%;
 }
@@ -51,4 +51,11 @@
 }
 .bottom{
 	margin-top: 15px;
+}
+/**  Event types  */
+.math{
+	background-color: blue;
+}
+.war{
+	background-color: black;
 }

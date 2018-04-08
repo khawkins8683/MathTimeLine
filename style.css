@@ -1,0 +1,54 @@
+
+/**---------------- main timeline conatainer---------------- **/
+.tlct{
+	position: relative;
+	height: 300px;
+	color: white;  
+}	
+/**-----------------timeline bar +background --------------**/
+.tl{
+	position: absolute;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.bkgrd{
+	background-color: black;
+	height: 250px;
+	top:-75px;
+
+}
+.bar{
+	height: 5px;
+	top:25px;
+	background-color: red;
+}
+/**-------------------timeline event styleing---------*/
+.event{
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	top:15px;
+
+	background-color: red;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+/**----event description styling -----**/
+.detailcontainer{
+	width:200px;
+	height: 100px;
+	margin-left:  30px;
+}
+.detailcontainer p,h3 {
+	margin: 0;
+}
+.top{
+	display: flex; 
+	flex-direction: column-reverse;
+	margin-top: -95px;
+}
+.bottom{
+	margin-top: 15px;
+}

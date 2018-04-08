@@ -1,0 +1,28 @@
+/** global offset container */
+.egyptct{
+	left: 1000px; /**global reference offset**/
+
+}	
+/**global off setbar + background */
+.egypt{
+	left: -1000px;/**global reference offset**/
+	width: 2200px;/** ---- Golbal Width ------*/
+}
+
+
+/*--------event offsets----------------*/
+.yearbce1000{
+	left: -1000px;
+}
+.yearbce750{
+	left: -750px;
+}
+
+.yearbce0{
+	left: 0px;
+}
+
+.yearce1000{
+	left: 1000px;
+}
+
